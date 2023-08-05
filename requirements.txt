@@ -2,4 +2,5 @@ transformers
 transformers[sentencepiece]
 flask
 flask_cors
+torch
 -e .
