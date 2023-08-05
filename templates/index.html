@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Text-Summarizer</title>
+		
+        <link rel="stylesheet" type="text/css" href="static/styles.css">
+
+    </head>
+
+    <body>
+
+        <!-- Website Title -->
+    	<div class="container">
+			<h1 class='container-heading'>Text-Summarizer</h1>
+    	</div>
+
+        <!-- Prediction Area -->
+        <div class="prediction-area">
+
+            <!-- Prediction Form -->
+            <div class='div'>
+		
+                <form action="/predict" method="POST">
+                    <textarea rows="20" cols="40" class="form-input" type="text" name="text_to_summarize" placeholder="Enter or Paste your text"
+					rows="maxlength" cols='maxlength'></textarea><br>
+					
+                    
+			<input type="submit" class="Summarize" value="Summarize">
+        	</form>
+        </div>
+    </body>
+</html>

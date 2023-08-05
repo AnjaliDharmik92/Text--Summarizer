@@ -1,0 +1,5 @@
+transformers
+transformers[sentencepiece]
+flask
+flask_cors
+-e .
