@@ -33,7 +33,7 @@ def predict():
        
         text_to_summarize = request.form.get('text_to_summarize')
 
-        my_prediction = pipe(text_to_summarize, **gen_kwargs)[0]
+        my_prediction = ""#pipe(text_to_summarize, **gen_kwargs)[0]
               
         return render_template('result.html'), summary = my_prediction)
 
