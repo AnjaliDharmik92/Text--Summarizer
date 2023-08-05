@@ -35,7 +35,7 @@ def predict():
 
         my_prediction = ""#pipe(News_Article, **gen_kwargs)[0]
               
-        return render_template('result.html', summary = my_prediction)
+        return render_template('result.html')#, summary = my_prediction)
 
 
 if __name__ == '__main__':
