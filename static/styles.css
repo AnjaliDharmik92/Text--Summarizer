@@ -84,7 +84,7 @@ body{
 .results{
   display: inline-block;
   width: auto;
-  height: 429px;
-  line-height: 400px;
+  height: auto;
+  line-height: auto;
   text-align: center;
 }
