@@ -1,11 +1,14 @@
 # Importing essential libraries
 from flask import Flask, render_template, request
 import pickle
+import torch
 
 # Load the saved model
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
 #Prediction
 
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, pipeline
 
 model_ckpt = "google/pegasus-cnn_dailymail"
 
