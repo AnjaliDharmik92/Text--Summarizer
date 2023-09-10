@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Text--Summarizer'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0E897C2EFA9B482084987AEF1381BFEC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_51BAF2EF7AAE4A75ACA4D80D256A3261 }}
